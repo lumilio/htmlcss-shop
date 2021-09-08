@@ -17,6 +17,7 @@ body{
 .container{
     width: 1440px;
     margin: auto;
+    margin-top: 15px;
     border: 1px solid black;
     background-color: white;
 }
@@ -37,4 +38,46 @@ body{
 
 .item > img {
     width: 100%;
+}
+
+.favourite{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.favourite > a {
+    text-decoration: none;
+}
+
+.favourite:hover , .favourite:target {
+    color: red;
+    cursor: pointer;
+}
+
+.info1 , .info2 {
+    position: absolute;
+    padding: 6px;
+    padding-left: 13px;
+    padding-right: 13px;
+    color: white;
+    font-size: larger;
+}
+
+.info1{
+    bottom: 90px;
+    left: 5px;
+    background-color: red;
+}
+
+.info2{
+    bottom: 90px;
+    left: 80px;
+    background-color: green;
 }
