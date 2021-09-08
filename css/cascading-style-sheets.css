@@ -82,5 +82,13 @@ body{
     background-color: green;
 }
 
-
+.secondaria {
+    display: none;
+  }
+  .item:hover img[class="primaria"] {
+    display: none;
+  }
+  .item:hover img[class="secondaria"] {
+    display: block;
+  }
 
