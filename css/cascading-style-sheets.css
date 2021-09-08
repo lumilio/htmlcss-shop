@@ -10,15 +10,11 @@
     display: table;
 }
 
-body{
-    background-color: lightgrey;
-}
 
 .container{
     width: 1440px;
     margin: auto;
     margin-top: 15px;
-    border: 1px solid black;
     background-color: white;
 }
 
@@ -84,11 +80,21 @@ body{
 
 .secondaria {
     display: none;
-  }
-  .item:hover img[class="primaria"] {
+}
+
+.item:hover img[class="primaria"] {
     display: none;
-  }
-  .item:hover img[class="secondaria"] {
+}
+
+.item:hover img[class="secondaria"] {
     display: block;
+}
+
+
+  .prezzo{
+      color: red;
   }
 
+  .sconto{
+      text-decoration: line-through;
+  }
