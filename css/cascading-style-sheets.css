@@ -31,7 +31,7 @@ body{
 .item{
     width: 33%;
     float: left;
-    padding: 5px;
+    padding: 7px;
     position: relative;
     margin: auto;
 }
@@ -72,7 +72,7 @@ body{
 
 .info1{
     bottom: 90px;
-    left: 5px;
+    left: 7px;
     background-color: red;
 }
 
@@ -81,3 +81,6 @@ body{
     left: 80px;
     background-color: green;
 }
+
+
+
